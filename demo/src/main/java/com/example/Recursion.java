@@ -19,6 +19,7 @@ public class Recursion {
     public static int multiply(int a, int b) {
         // Handle negative b
         if (b < 0) {
+            System.out.println("Handling negative b: " + b);
             return -multiply(a, -b); // Handle negative b
             // if b is negative, condition b == 1 will not be met, 
             // which will lead to infinite recursion

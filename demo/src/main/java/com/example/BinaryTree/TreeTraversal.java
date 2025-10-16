@@ -1,13 +1,11 @@
-package com.example.BST;
+package com.example.BinaryTree;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 
-import com.example.BST.TreeNode;
-
-public class BinaryTreeTaversal {
+public class TreeTraversal {
     
     public void inorder(List<Integer> result,TreeNode currentNode){
         if(currentNode != null){
